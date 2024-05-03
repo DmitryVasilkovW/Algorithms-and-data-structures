@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fbb48477-d70e-4957-b43f-3264e76b873f" name="Changes" comment="feat: tasks">
       <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/ArrayOrString/StringCompression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/slidingWindow/MaximumAverageSubarrayI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/slidingWindow/MaximumNumberOfVowelsInASubstringOfGivenLength.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,12 +57,14 @@
     "Application.KidsWithTheGreatestNumberOfCandies.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MaxNumberOfKSumPairs.executor": "Run",
+    "Application.MaximumAverageSubarrayI.executor": "Run",
+    "Application.MaximumNumberOfVowelsInASubstringOfGivenLength.executor": "Run",
     "Application.MergeStringsAlternately.executor": "Run",
     "Application.MoveZeroes.executor": "Debug",
     "Application.ProductOfArrayExceptSelf.executor": "Debug",
     "Application.ReverseVowelsOfAString.executor": "Run",
     "Application.ReverseWordsInAString.executor": "Debug",
-    "Application.StringCompression.executor": "Run",
+    "Application.StringCompression.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
@@ -78,7 +80,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MaximumAverageSubarrayI">
+  <component name="RunManager" selected="Application.StringCompression">
     <configuration name="IncreasingTripletSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.algorithmsAndDataStructures.ArrayOrString.IncreasingTripletSubsequence" />
       <module name="AlgorithmsAndDataStructures" />
@@ -105,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductOfArrayExceptSelf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.algorithmsAndDataStructures.ArrayOrString.ProductOfArrayExceptSelf" />
+    <configuration name="MaximumNumberOfVowelsInASubstringOfGivenLength" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.algorithmsAndDataStructures.slidingWindow.MaximumNumberOfVowelsInASubstringOfGivenLength" />
       <module name="AlgorithmsAndDataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.algorithmsAndDataStructures.ArrayOrString.*" />
+          <option name="PATTERN" value="org.algorithmsAndDataStructures.slidingWindow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,8 +120,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseWordsInAString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.algorithmsAndDataStructures.ArrayOrString.ReverseWordsInAString" />
+    <configuration name="ProductOfArrayExceptSelf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.algorithmsAndDataStructures.ArrayOrString.ProductOfArrayExceptSelf" />
       <module name="AlgorithmsAndDataStructures" />
       <extension name="coverage">
         <pattern>
@@ -169,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MaximumAverageSubarrayI" />
         <item itemvalue="Application.StringCompression" />
+        <item itemvalue="Application.MaximumNumberOfVowelsInASubstringOfGivenLength" />
+        <item itemvalue="Application.MaximumAverageSubarrayI" />
         <item itemvalue="Application.IncreasingTripletSubsequence" />
         <item itemvalue="Application.ProductOfArrayExceptSelf" />
-        <item itemvalue="Application.ReverseWordsInAString" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +200,10 @@
       <workItem from="1714324571390" duration="11667000" />
       <workItem from="1714397197660" duration="20304000" />
       <workItem from="1714467850976" duration="2042000" />
-      <workItem from="1714695050485" duration="3171000" />
+      <workItem from="1714695050485" duration="3613000" />
+      <workItem from="1714740276771" duration="126000" />
+      <workItem from="1714740756055" duration="2131000" />
+      <workItem from="1714748639416" duration="4444000" />
     </task>
     <task id="LOCAL-00001" summary="feat: prefix sum and two pointers">
       <option name="closed" value="true" />
@@ -240,11 +245,30 @@
       <option name="project" value="LOCAL" />
       <updated>1714432247879</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: tasks">
+      <option name="closed" value="true" />
+      <created>1714701684963</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714701684963</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: prefix sum and two pointers" />
@@ -259,8 +283,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/ArrayOrString/StringCompression.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="61" />
+          <line>7</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/ArrayOrString/StringCompression.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="72" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
