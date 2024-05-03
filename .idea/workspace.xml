@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbb48477-d70e-4957-b43f-3264e76b873f" name="Changes" comment="feat: tasks">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/ArrayOrString/CanPlaceFlowers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/ArrayOrString/IncreasingTripletSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/ArrayOrString/ProductOfArrayExceptSelf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/ArrayOrString/ReverseVowelsOfAString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/ArrayOrString/ReverseWordsInAString.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/ArrayOrString/StringCompression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/slidingWindow/MaximumAverageSubarrayI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +62,7 @@
     "Application.ProductOfArrayExceptSelf.executor": "Debug",
     "Application.ReverseVowelsOfAString.executor": "Run",
     "Application.ReverseWordsInAString.executor": "Debug",
-    "Application.StringCompression.executor": "Debug",
+    "Application.StringCompression.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
@@ -78,11 +74,11 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.StringCompression">
+  <component name="RunManager" selected="Application.MaximumAverageSubarrayI">
     <configuration name="IncreasingTripletSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.algorithmsAndDataStructures.ArrayOrString.IncreasingTripletSubsequence" />
       <module name="AlgorithmsAndDataStructures" />
@@ -96,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductOfArrayExceptSelf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.algorithmsAndDataStructures.ArrayOrString.ProductOfArrayExceptSelf" />
+    <configuration name="MaximumAverageSubarrayI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.algorithmsAndDataStructures.slidingWindow.MaximumAverageSubarrayI" />
       <module name="AlgorithmsAndDataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.algorithmsAndDataStructures.ArrayOrString.*" />
+          <option name="PATTERN" value="org.algorithmsAndDataStructures.slidingWindow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,8 +105,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseVowelsOfAString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.algorithmsAndDataStructures.ArrayOrString.ReverseVowelsOfAString" />
+    <configuration name="ProductOfArrayExceptSelf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.algorithmsAndDataStructures.ArrayOrString.ProductOfArrayExceptSelf" />
       <module name="AlgorithmsAndDataStructures" />
       <extension name="coverage">
         <pattern>
@@ -173,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaximumAverageSubarrayI" />
         <item itemvalue="Application.StringCompression" />
         <item itemvalue="Application.IncreasingTripletSubsequence" />
         <item itemvalue="Application.ProductOfArrayExceptSelf" />
         <item itemvalue="Application.ReverseWordsInAString" />
-        <item itemvalue="Application.ReverseVowelsOfAString" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +196,9 @@
       <workItem from="1714152359673" duration="8720000" />
       <workItem from="1714244258040" duration="5059000" />
       <workItem from="1714324571390" duration="11667000" />
-      <workItem from="1714397197660" duration="20131000" />
+      <workItem from="1714397197660" duration="20304000" />
+      <workItem from="1714467850976" duration="2042000" />
+      <workItem from="1714695050485" duration="3171000" />
     </task>
     <task id="LOCAL-00001" summary="feat: prefix sum and two pointers">
       <option name="closed" value="true" />
@@ -234,7 +232,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714403799959</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat: tasks">
+      <option name="closed" value="true" />
+      <created>1714432247879</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714432247879</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,8 +259,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/ArrayOrString/StringCompression.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="52" />
+          <line>28</line>
+          <option name="timeStamp" value="61" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
