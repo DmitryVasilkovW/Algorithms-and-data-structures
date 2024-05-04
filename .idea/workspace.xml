@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbb48477-d70e-4957-b43f-3264e76b873f" name="Changes" comment="feat: tasks">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/HashMapORSet/FindTheDifferenceOfTwoArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/HashMapORSet/UniqueNumberOfOccurrences.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +49,7 @@
     "Application.CanPlaceFlowers.executor": "Debug",
     "Application.ContainerWithMostWater.executor": "Run",
     "Application.FindPivotIndex.executor": "Debug",
-    "Application.FindTheDifferenceOfTwoArrays.executor": "Run",
+    "Application.FindTheDifferenceOfTwoArrays.executor": "Debug",
     "Application.FindTheHighestAltitude.executor": "Run",
     "Application.GreatestCommonDivisorOfStrings.executor": "Debug",
     "Application.IncreasingTripletSubsequence.executor": "Debug",
@@ -67,6 +67,7 @@
     "Application.ReverseVowelsOfAString.executor": "Run",
     "Application.ReverseWordsInAString.executor": "Debug",
     "Application.StringCompression.executor": "Run",
+    "Application.UniqueNumberOfOccurrences.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
@@ -82,7 +83,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.FindTheDifferenceOfTwoArrays">
+  <component name="RunManager" selected="Application.UniqueNumberOfOccurrences">
     <configuration name="FindTheDifferenceOfTwoArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.algorithmsAndDataStructures.HashMapORSet.FindTheDifferenceOfTwoArrays" />
       <module name="AlgorithmsAndDataStructures" />
@@ -122,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumNumberOfVowelsInASubstringOfGivenLength" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.algorithmsAndDataStructures.slidingWindow.MaximumNumberOfVowelsInASubstringOfGivenLength" />
+    <configuration name="StringCompression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.algorithmsAndDataStructures.ArrayOrString.StringCompression" />
       <module name="AlgorithmsAndDataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.algorithmsAndDataStructures.slidingWindow.*" />
+          <option name="PATTERN" value="org.algorithmsAndDataStructures.ArrayOrString.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringCompression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.algorithmsAndDataStructures.ArrayOrString.StringCompression" />
+    <configuration name="UniqueNumberOfOccurrences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.algorithmsAndDataStructures.HashMapORSet.UniqueNumberOfOccurrences" />
       <module name="AlgorithmsAndDataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.algorithmsAndDataStructures.ArrayOrString.*" />
+          <option name="PATTERN" value="org.algorithmsAndDataStructures.HashMapORSet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UniqueNumberOfOccurrences" />
         <item itemvalue="Application.FindTheDifferenceOfTwoArrays" />
         <item itemvalue="Application.LongestSubarrayOf1sAfterDeletingOneElement" />
         <item itemvalue="Application.MaxConsecutiveOnesIII" />
         <item itemvalue="Application.StringCompression" />
-        <item itemvalue="Application.MaximumNumberOfVowelsInASubstringOfGivenLength" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +208,7 @@
       <workItem from="1714740756055" duration="2131000" />
       <workItem from="1714748639416" duration="20758000" />
       <workItem from="1714826208915" duration="149000" />
-      <workItem from="1714834387758" duration="555000" />
+      <workItem from="1714834387758" duration="4520000" />
     </task>
     <task id="LOCAL-00001" summary="feat: prefix sum and two pointers">
       <option name="closed" value="true" />
@@ -273,7 +274,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714786160414</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat: tasks">
+      <option name="closed" value="true" />
+      <created>1714835084092</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1714835084092</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,6 +319,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/HashMapORSet/FindTheDifferenceOfTwoArrays.java</url>
           <line>46</line>
           <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/HashMapORSet/UniqueNumberOfOccurrences.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="87" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
