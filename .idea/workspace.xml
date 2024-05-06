@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbb48477-d70e-4957-b43f-3264e76b873f" name="Changes" comment="feat: tasks">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/HashMapORSet/DetermineIfTwoStringsAreClose.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/HashMapORSet/EqualRowAndColumnPairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/Stack/AsteroidCollision.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/Stack/RemovingStarsFromAString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/HashMapORSet/UniqueNumberOfOccurrences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/HashMapORSet/UniqueNumberOfOccurrences.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,47 +46,63 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.CanPlaceFlowers.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ContainerWithMostWater.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DetermineIfTwoStringsAreClose.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindPivotIndex.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.FindTheDifferenceOfTwoArrays.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.FindTheHighestAltitude.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GreatestCommonDivisorOfStrings.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.IncreasingTripletSubsequence.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.IsSubsequence.executor&quot;: &quot;Run&quot;,
-    &quot;Application.KidsWithTheGreatestNumberOfCandies.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestSubarrayOf1sAfterDeletingOneElement.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaxConsecutiveOnesIII.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaxNumberOfKSumPairs.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaximumAverageSubarrayI.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaximumNumberOfVowelsInASubstringOfGivenLength.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MergeStringsAlternately.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MoveZeroes.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ProductOfArrayExceptSelf.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ReverseVowelsOfAString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseWordsInAString.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.StringCompression.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UniqueNumberOfOccurrences.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AsteroidCollision.executor": "Debug",
+    "Application.CanPlaceFlowers.executor": "Debug",
+    "Application.ContainerWithMostWater.executor": "Run",
+    "Application.DetermineIfTwoStringsAreClose.executor": "Run",
+    "Application.EqualRowAndColumnPairs.executor": "Run",
+    "Application.FindPivotIndex.executor": "Debug",
+    "Application.FindTheDifferenceOfTwoArrays.executor": "Debug",
+    "Application.FindTheHighestAltitude.executor": "Run",
+    "Application.GreatestCommonDivisorOfStrings.executor": "Debug",
+    "Application.IncreasingTripletSubsequence.executor": "Debug",
+    "Application.IsSubsequence.executor": "Run",
+    "Application.KidsWithTheGreatestNumberOfCandies.executor": "Run",
+    "Application.LongestSubarrayOf1sAfterDeletingOneElement.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MaxConsecutiveOnesIII.executor": "Run",
+    "Application.MaxNumberOfKSumPairs.executor": "Run",
+    "Application.MaximumAverageSubarrayI.executor": "Run",
+    "Application.MaximumNumberOfVowelsInASubstringOfGivenLength.executor": "Run",
+    "Application.MergeStringsAlternately.executor": "Run",
+    "Application.MoveZeroes.executor": "Debug",
+    "Application.ProductOfArrayExceptSelf.executor": "Debug",
+    "Application.RemovingStarsFromAString.executor": "Run",
+    "Application.ReverseVowelsOfAString.executor": "Run",
+    "Application.ReverseWordsInAString.executor": "Debug",
+    "Application.StringCompression.executor": "Run",
+    "Application.UniqueNumberOfOccurrences.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "git-widget-placeholder": "master",
+    "go.import.settings.migrated": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.DetermineIfTwoStringsAreClose">
+}]]></component>
+  <component name="RunManager" selected="Application.AsteroidCollision">
+    <configuration name="AsteroidCollision" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.algorithmsAndDataStructures.Stack.AsteroidCollision" />
+      <module name="AlgorithmsAndDataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.algorithmsAndDataStructures.Stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DetermineIfTwoStringsAreClose" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.algorithmsAndDataStructures.HashMapORSet.DetermineIfTwoStringsAreClose" />
       <module name="AlgorithmsAndDataStructures" />
@@ -99,8 +116,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindTheDifferenceOfTwoArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.algorithmsAndDataStructures.HashMapORSet.FindTheDifferenceOfTwoArrays" />
+    <configuration name="EqualRowAndColumnPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.algorithmsAndDataStructures.HashMapORSet.EqualRowAndColumnPairs" />
       <module name="AlgorithmsAndDataStructures" />
       <extension name="coverage">
         <pattern>
@@ -112,25 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestSubarrayOf1sAfterDeletingOneElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.algorithmsAndDataStructures.slidingWindow.LongestSubarrayOf1sAfterDeletingOneElement" />
+    <configuration name="RemovingStarsFromAString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.algorithmsAndDataStructures.Stack.RemovingStarsFromAString" />
       <module name="AlgorithmsAndDataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.algorithmsAndDataStructures.slidingWindow.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaxConsecutiveOnesIII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.algorithmsAndDataStructures.slidingWindow.MaxConsecutiveOnesIII" />
-      <module name="AlgorithmsAndDataStructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.algorithmsAndDataStructures.slidingWindow.*" />
+          <option name="PATTERN" value="org.algorithmsAndDataStructures.Stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AsteroidCollision" />
+        <item itemvalue="Application.RemovingStarsFromAString" />
+        <item itemvalue="Application.EqualRowAndColumnPairs" />
         <item itemvalue="Application.DetermineIfTwoStringsAreClose" />
         <item itemvalue="Application.UniqueNumberOfOccurrences" />
-        <item itemvalue="Application.FindTheDifferenceOfTwoArrays" />
-        <item itemvalue="Application.LongestSubarrayOf1sAfterDeletingOneElement" />
-        <item itemvalue="Application.MaxConsecutiveOnesIII" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +217,8 @@
       <workItem from="1714834387758" duration="4673000" />
       <workItem from="1714923678149" duration="2741000" />
       <workItem from="1714927215543" duration="723000" />
-      <workItem from="1714945186605" duration="1548000" />
+      <workItem from="1714945186605" duration="1983000" />
+      <workItem from="1714992913678" duration="10389000" />
     </task>
     <task id="LOCAL-00001" summary="feat: prefix sum and two pointers">
       <option name="closed" value="true" />
@@ -295,7 +300,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714839345710</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="feat: tasks">
+      <option name="closed" value="true" />
+      <created>1714947280650</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1714947280650</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,7 +337,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/slidingWindow/LongestSubarrayOf1sAfterDeletingOneElement.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/SlidingWindow/LongestSubarrayOf1sAfterDeletingOneElement.java</url>
           <line>35</line>
           <option name="timeStamp" value="75" />
         </line-breakpoint>
@@ -332,6 +345,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/HashMapORSet/FindTheDifferenceOfTwoArrays.java</url>
           <line>46</line>
           <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/Stack/AsteroidCollision.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="94" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
