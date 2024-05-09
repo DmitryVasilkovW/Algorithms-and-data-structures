@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbb48477-d70e-4957-b43f-3264e76b873f" name="Changes" comment="feat: tasks">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/HashMapORSet/EqualRowAndColumnPairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/Stack/AsteroidCollision.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/Stack/RemovingStarsFromAString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/Queue/NumberOfRecentCalls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/Stack/DecodeString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,9 +47,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.AsteroidCollision.executor": "Debug",
+    "Application.AsteroidCollision.executor": "Run",
     "Application.CanPlaceFlowers.executor": "Debug",
     "Application.ContainerWithMostWater.executor": "Run",
+    "Application.DecodeString.executor": "Run",
     "Application.DetermineIfTwoStringsAreClose.executor": "Run",
     "Application.EqualRowAndColumnPairs.executor": "Run",
     "Application.FindPivotIndex.executor": "Debug",
@@ -68,6 +68,7 @@
     "Application.MaximumNumberOfVowelsInASubstringOfGivenLength.executor": "Run",
     "Application.MergeStringsAlternately.executor": "Run",
     "Application.MoveZeroes.executor": "Debug",
+    "Application.NumberOfRecentCalls.executor": "Run",
     "Application.ProductOfArrayExceptSelf.executor": "Debug",
     "Application.RemovingStarsFromAString.executor": "Run",
     "Application.ReverseVowelsOfAString.executor": "Run",
@@ -89,7 +90,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.AsteroidCollision">
+  <component name="RunManager" selected="Application.NumberOfRecentCalls">
     <configuration name="AsteroidCollision" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.algorithmsAndDataStructures.Stack.AsteroidCollision" />
       <module name="AlgorithmsAndDataStructures" />
@@ -103,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DetermineIfTwoStringsAreClose" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.algorithmsAndDataStructures.HashMapORSet.DetermineIfTwoStringsAreClose" />
+    <configuration name="DecodeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.algorithmsAndDataStructures.Stack.DecodeString" />
       <module name="AlgorithmsAndDataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.algorithmsAndDataStructures.HashMapORSet.*" />
+          <option name="PATTERN" value="org.algorithmsAndDataStructures.Stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemovingStarsFromAString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.algorithmsAndDataStructures.Stack.RemovingStarsFromAString" />
+    <configuration name="NumberOfRecentCalls" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.algorithmsAndDataStructures.Queue.NumberOfRecentCalls" />
       <module name="AlgorithmsAndDataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.algorithmsAndDataStructures.Stack.*" />
+          <option name="PATTERN" value="org.algorithmsAndDataStructures.Queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,12 +143,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UniqueNumberOfOccurrences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.algorithmsAndDataStructures.HashMapORSet.UniqueNumberOfOccurrences" />
+    <configuration name="RemovingStarsFromAString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.algorithmsAndDataStructures.Stack.RemovingStarsFromAString" />
       <module name="AlgorithmsAndDataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.algorithmsAndDataStructures.HashMapORSet.*" />
+          <option name="PATTERN" value="org.algorithmsAndDataStructures.Stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumberOfRecentCalls" />
+        <item itemvalue="Application.DecodeString" />
         <item itemvalue="Application.AsteroidCollision" />
         <item itemvalue="Application.RemovingStarsFromAString" />
         <item itemvalue="Application.EqualRowAndColumnPairs" />
-        <item itemvalue="Application.DetermineIfTwoStringsAreClose" />
-        <item itemvalue="Application.UniqueNumberOfOccurrences" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +219,10 @@
       <workItem from="1714923678149" duration="2741000" />
       <workItem from="1714927215543" duration="723000" />
       <workItem from="1714945186605" duration="1983000" />
-      <workItem from="1714992913678" duration="10389000" />
+      <workItem from="1714992913678" duration="10504000" />
+      <workItem from="1715078064302" duration="1562000" />
+      <workItem from="1715210370572" duration="1689000" />
+      <workItem from="1715266554013" duration="9977000" />
     </task>
     <task id="LOCAL-00001" summary="feat: prefix sum and two pointers">
       <option name="closed" value="true" />
@@ -308,7 +312,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714947280650</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="feat: tasks">
+      <option name="closed" value="true" />
+      <created>1715012353171</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1715012353171</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,6 +362,15 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/Stack/AsteroidCollision.java</url>
           <line>58</line>
           <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/Queue/NumberOfRecentCalls.java</url>
+          <line>20</line>
+          <properties class="org.algorithmsAndDataStructures.Queue.NumberOfRecentCalls.RecentCounter" method="ping">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="103" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
