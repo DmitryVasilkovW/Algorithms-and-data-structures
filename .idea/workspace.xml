@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbb48477-d70e-4957-b43f-3264e76b873f" name="Changes" comment="feat: tasks">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/BinarySearch/FindPeakElement.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/BinarySearch/GuessNumberHigherOrLower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/LinkedList/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/LinkedList/ReverseLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/Queue/Dota2Senate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/BinarySearch/KokoEatingBananas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/BinarySearch/SuccessfulPairsOfSpellsAndPotions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,13 +56,16 @@
     "Application.DetermineIfTwoStringsAreClose.executor": "Run",
     "Application.Dota2Senate.executor": "Run",
     "Application.EqualRowAndColumnPairs.executor": "Run",
+    "Application.FindPeakElement.executor": "Run",
     "Application.FindPivotIndex.executor": "Debug",
     "Application.FindTheDifferenceOfTwoArrays.executor": "Debug",
     "Application.FindTheHighestAltitude.executor": "Run",
     "Application.GreatestCommonDivisorOfStrings.executor": "Debug",
+    "Application.GuessNumberHigherOrLower.executor": "Run",
     "Application.IncreasingTripletSubsequence.executor": "Debug",
     "Application.IsSubsequence.executor": "Run",
     "Application.KidsWithTheGreatestNumberOfCandies.executor": "Run",
+    "Application.KokoEatingBananas.executor": "Run",
     "Application.LongestSubarrayOf1sAfterDeletingOneElement.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MaxConsecutiveOnesIII.executor": "Run",
@@ -78,6 +81,7 @@
     "Application.ReverseVowelsOfAString.executor": "Run",
     "Application.ReverseWordsInAString.executor": "Debug",
     "Application.StringCompression.executor": "Run",
+    "Application.SuccessfulPairsOfSpellsAndPotions.executor": "Run",
     "Application.UniqueNumberOfOccurrences.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
@@ -94,13 +98,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ReverseLinkedList">
-    <configuration name="AsteroidCollision" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.algorithmsAndDataStructures.Stack.AsteroidCollision" />
+  <component name="RunManager" selected="Application.KokoEatingBananas">
+    <configuration name="FindPeakElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.algorithmsAndDataStructures.BinarySearch.FindPeakElement" />
       <module name="AlgorithmsAndDataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.algorithmsAndDataStructures.Stack.*" />
+          <option name="PATTERN" value="org.algorithmsAndDataStructures.BinarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DecodeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.algorithmsAndDataStructures.Stack.DecodeString" />
+    <configuration name="GuessNumberHigherOrLower" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.algorithmsAndDataStructures.BinarySearch.GuessNumberHigherOrLower" />
       <module name="AlgorithmsAndDataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.algorithmsAndDataStructures.Stack.*" />
+          <option name="PATTERN" value="org.algorithmsAndDataStructures.BinarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,25 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dota2Senate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.algorithmsAndDataStructures.Queue.Dota2Senate" />
+    <configuration name="KokoEatingBananas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.algorithmsAndDataStructures.BinarySearch.KokoEatingBananas" />
       <module name="AlgorithmsAndDataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.algorithmsAndDataStructures.Queue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NumberOfRecentCalls" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.algorithmsAndDataStructures.Queue.NumberOfRecentCalls" />
-      <module name="AlgorithmsAndDataStructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.algorithmsAndDataStructures.Queue.*" />
+          <option name="PATTERN" value="org.algorithmsAndDataStructures.BinarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,6 +144,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.algorithmsAndDataStructures.LinkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SuccessfulPairsOfSpellsAndPotions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.algorithmsAndDataStructures.BinarySearch.SuccessfulPairsOfSpellsAndPotions" />
+      <module name="AlgorithmsAndDataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.algorithmsAndDataStructures.BinarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KokoEatingBananas" />
+        <item itemvalue="Application.FindPeakElement" />
+        <item itemvalue="Application.SuccessfulPairsOfSpellsAndPotions" />
+        <item itemvalue="Application.GuessNumberHigherOrLower" />
         <item itemvalue="Application.ReverseLinkedList" />
-        <item itemvalue="Application.Dota2Senate" />
-        <item itemvalue="Application.NumberOfRecentCalls" />
-        <item itemvalue="Application.DecodeString" />
-        <item itemvalue="Application.AsteroidCollision" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +231,12 @@
       <workItem from="1715078064302" duration="1562000" />
       <workItem from="1715210370572" duration="1689000" />
       <workItem from="1715266554013" duration="10868000" />
-      <workItem from="1715603001695" duration="12211000" />
+      <workItem from="1715603001695" duration="12416000" />
+      <workItem from="1715643774249" duration="3000" />
+      <workItem from="1715684082512" duration="1959000" />
+      <workItem from="1715696724148" duration="2555000" />
+      <workItem from="1715949649747" duration="2831000" />
+      <workItem from="1715967858184" duration="8660000" />
     </task>
     <task id="LOCAL-00001" summary="feat: prefix sum and two pointers">
       <option name="closed" value="true" />
@@ -333,7 +342,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715284214224</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="feat: tasks">
+      <option name="closed" value="true" />
+      <created>1715643457286</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1715643457286</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -380,6 +397,33 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/Queue/Dota2Senate.java</url>
           <line>28</line>
           <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/BinarySearch/GuessNumberHigherOrLower.java</url>
+          <line>10</line>
+          <properties class="org.algorithmsAndDataStructures.BinarySearch.GuessNumberHigherOrLower" method="guessNumber">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/BinarySearch/SuccessfulPairsOfSpellsAndPotions.java</url>
+          <line>31</line>
+          <properties class="org.algorithmsAndDataStructures.BinarySearch.SuccessfulPairsOfSpellsAndPotions" method="successfulPairs">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/BinarySearch/KokoEatingBananas.java</url>
+          <line>22</line>
+          <properties class="org.algorithmsAndDataStructures.BinarySearch.KokoEatingBananas" method="minEatingSpeed">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="107" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
