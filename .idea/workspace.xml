@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbb48477-d70e-4957-b43f-3264e76b873f" name="Changes" comment="feat: tasks">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/HeapPriorityQueue/KthLargestElementInAnArray.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/HeapPriorityQueue/SmallestNumberInInfiniteSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,58 +43,58 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AsteroidCollision.executor": "Run",
-    "Application.CanPlaceFlowers.executor": "Debug",
-    "Application.ContainerWithMostWater.executor": "Run",
-    "Application.DecodeString.executor": "Run",
-    "Application.DetermineIfTwoStringsAreClose.executor": "Run",
-    "Application.Dota2Senate.executor": "Run",
-    "Application.EqualRowAndColumnPairs.executor": "Run",
-    "Application.FindPeakElement.executor": "Run",
-    "Application.FindPivotIndex.executor": "Debug",
-    "Application.FindTheDifferenceOfTwoArrays.executor": "Debug",
-    "Application.FindTheHighestAltitude.executor": "Run",
-    "Application.GreatestCommonDivisorOfStrings.executor": "Debug",
-    "Application.GuessNumberHigherOrLower.executor": "Run",
-    "Application.IncreasingTripletSubsequence.executor": "Debug",
-    "Application.IsSubsequence.executor": "Run",
-    "Application.KidsWithTheGreatestNumberOfCandies.executor": "Run",
-    "Application.KokoEatingBananas.executor": "Run",
-    "Application.KthLargestElementInAnArray.executor": "Run",
-    "Application.LongestSubarrayOf1sAfterDeletingOneElement.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MaxConsecutiveOnesIII.executor": "Run",
-    "Application.MaxNumberOfKSumPairs.executor": "Run",
-    "Application.MaximumAverageSubarrayI.executor": "Run",
-    "Application.MaximumNumberOfVowelsInASubstringOfGivenLength.executor": "Run",
-    "Application.MergeStringsAlternately.executor": "Run",
-    "Application.MoveZeroes.executor": "Debug",
-    "Application.NumberOfRecentCalls.executor": "Run",
-    "Application.ProductOfArrayExceptSelf.executor": "Debug",
-    "Application.RemovingStarsFromAString.executor": "Run",
-    "Application.ReverseLinkedList.executor": "Run",
-    "Application.ReverseVowelsOfAString.executor": "Run",
-    "Application.ReverseWordsInAString.executor": "Debug",
-    "Application.StringCompression.executor": "Run",
-    "Application.SuccessfulPairsOfSpellsAndPotions.executor": "Run",
-    "Application.UniqueNumberOfOccurrences.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "git-widget-placeholder": "master",
-    "go.import.settings.migrated": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AsteroidCollision.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CanPlaceFlowers.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ContainerWithMostWater.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DecodeString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DetermineIfTwoStringsAreClose.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Dota2Senate.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EqualRowAndColumnPairs.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindPeakElement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindPivotIndex.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.FindTheDifferenceOfTwoArrays.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.FindTheHighestAltitude.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GreatestCommonDivisorOfStrings.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.GuessNumberHigherOrLower.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IncreasingTripletSubsequence.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.IsSubsequence.executor&quot;: &quot;Run&quot;,
+    &quot;Application.KidsWithTheGreatestNumberOfCandies.executor&quot;: &quot;Run&quot;,
+    &quot;Application.KokoEatingBananas.executor&quot;: &quot;Run&quot;,
+    &quot;Application.KthLargestElementInAnArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestSubarrayOf1sAfterDeletingOneElement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxConsecutiveOnesIII.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxNumberOfKSumPairs.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaximumAverageSubarrayI.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaximumNumberOfVowelsInASubstringOfGivenLength.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergeStringsAlternately.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MoveZeroes.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.NumberOfRecentCalls.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProductOfArrayExceptSelf.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.RemovingStarsFromAString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseVowelsOfAString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseWordsInAString.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.StringCompression.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SuccessfulPairsOfSpellsAndPotions.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UniqueNumberOfOccurrences.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.KthLargestElementInAnArray">
     <configuration name="FindPeakElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.algorithmsAndDataStructures.BinarySearch.FindPeakElement" />
@@ -236,6 +234,7 @@
       <workItem from="1715696724148" duration="2555000" />
       <workItem from="1715949649747" duration="2831000" />
       <workItem from="1715967858184" duration="10571000" />
+      <workItem from="1715983987881" duration="35000" />
     </task>
     <task id="LOCAL-00001" summary="feat: prefix sum and two pointers">
       <option name="closed" value="true" />
@@ -357,7 +356,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715982260782</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="feat: tasks">
+      <option name="closed" value="true" />
+      <created>1715984004053</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1715984004053</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
