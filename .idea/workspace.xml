@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbb48477-d70e-4957-b43f-3264e76b873f" name="Changes" comment="feat: tasks">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/LinkedList/DeleteTheMiddleNodeOfALinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/LinkedList/MaximumTwinSumOfALinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/LinkedList/OddEvenLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/LinkedList/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/HashMapORSet/TwoSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,6 +85,7 @@
     "Application.StringCompression.executor": "Run",
     "Application.SuccessfulPairsOfSpellsAndPotions.executor": "Run",
     "Application.TotalCostToHireKWorkers.executor": "Run",
+    "Application.TwoSum.executor": "Run",
     "Application.UniqueNumberOfOccurrences.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
@@ -104,26 +102,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MaximumTwinSumOfALinkedList">
+  <component name="RunManager" selected="Application.TwoSum">
     <configuration name="DeleteTheMiddleNodeOfALinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.algorithmsAndDataStructures.LinkedList.DeleteTheMiddleNodeOfALinkedList" />
       <module name="AlgorithmsAndDataStructures" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.algorithmsAndDataStructures.LinkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaximumSubsequenceScore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.algorithmsAndDataStructures.HeapPriorityQueue.MaximumSubsequenceScore" />
-      <module name="AlgorithmsAndDataStructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.algorithmsAndDataStructures.HeapPriorityQueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,6 +155,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.algorithmsAndDataStructures.HashMapORSet.TwoSum" />
+      <module name="AlgorithmsAndDataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.algorithmsAndDataStructures.HashMapORSet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="Algorithms and data structures" />
       <option name="ENV_FILES" value="" />
@@ -195,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TwoSum" />
         <item itemvalue="Application.MaximumTwinSumOfALinkedList" />
         <item itemvalue="Application.OddEvenLinkedList" />
         <item itemvalue="Application.DeleteTheMiddleNodeOfALinkedList" />
         <item itemvalue="Application.TotalCostToHireKWorkers" />
-        <item itemvalue="Application.MaximumSubsequenceScore" />
       </list>
     </recent_temporary>
   </component>
@@ -246,7 +244,7 @@
       <workItem from="1715983987881" duration="35000" />
       <workItem from="1716069785417" duration="3032000" />
       <workItem from="1716151431683" duration="2464000" />
-      <workItem from="1716209623022" duration="14626000" />
+      <workItem from="1716209623022" duration="16117000" />
     </task>
     <task id="LOCAL-00001" summary="feat: prefix sum and two pointers">
       <option name="closed" value="true" />
@@ -408,7 +406,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716230342224</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="feat: tasks">
+      <option name="closed" value="true" />
+      <created>1716242622266</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1716242622266</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -475,6 +481,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/HeapPriorityQueue/TotalCostToHireKWorkers.java</url>
           <line>31</line>
           <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/HashMapORSet/TwoSum.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="115" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/BinarySearch/GuessNumberHigherOrLower.java</url>
