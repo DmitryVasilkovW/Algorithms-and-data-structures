@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbb48477-d70e-4957-b43f-3264e76b873f" name="Changes" comment="feat: tasks">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/HeapPriorityQueue/MaximumSubsequenceScore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/HeapPriorityQueue/TotalCostToHireKWorkers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="fbb48477-d70e-4957-b43f-3264e76b873f" name="Changes" comment="feat: tasks" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -241,7 +237,7 @@
       <workItem from="1715983987881" duration="35000" />
       <workItem from="1716069785417" duration="3032000" />
       <workItem from="1716151431683" duration="2464000" />
-      <workItem from="1716209623022" duration="6690000" />
+      <workItem from="1716209623022" duration="7120000" />
     </task>
     <task id="LOCAL-00001" summary="feat: prefix sum and two pointers">
       <option name="closed" value="true" />
@@ -379,7 +375,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716077824953</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="feat: tasks">
+      <option name="closed" value="true" />
+      <created>1716230082170</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1716230082170</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
