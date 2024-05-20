@@ -1,4 +1,4 @@
-package org.algorithmsAndDataStructures.slidingWindow;
+package org.algorithmsAndDataStructures.SlidingWindow;
 // https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/?envType=study-plan-v2&envId=leetcode-75
 
 public class MaximumNumberOfVowelsInASubstringOfGivenLength

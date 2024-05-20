@@ -1,4 +1,4 @@
-package org.algorithmsAndDataStructures.prefixSum;
+package org.algorithmsAndDataStructures.PrefixSum;
 // https://leetcode.com/problems/find-pivot-index/?envType=study-plan-v2&envId=leetcode-75
 
 public class FindPivotIndex

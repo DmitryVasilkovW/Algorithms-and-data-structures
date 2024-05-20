@@ -1,4 +1,4 @@
-package org.algorithmsAndDataStructures.slidingWindow;
+package org.algorithmsAndDataStructures.SlidingWindow;
 // https://leetcode.com/problems/maximum-average-subarray-i/?envType=study-plan-v2&envId=leetcode-75
 
 public class MaximumAverageSubarrayI
