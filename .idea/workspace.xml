@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbb48477-d70e-4957-b43f-3264e76b873f" name="Changes" comment="feat: tasks">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/HashMapORSet/TwoSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/TwoPointers/RemoveDuplicatesFromSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/TwoPointers/_3Sum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/TwoPointers/_3SumClosest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/TwoPointers/_4Sum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,6 +81,7 @@
     "Application.NumberOfRecentCalls.executor": "Run",
     "Application.OddEvenLinkedList.executor": "Run",
     "Application.ProductOfArrayExceptSelf.executor": "Debug",
+    "Application.RemoveDuplicatesFromSortedArray.executor": "Run",
     "Application.RemovingStarsFromAString.executor": "Run",
     "Application.ReverseLinkedList.executor": "Run",
     "Application.ReverseVowelsOfAString.executor": "Run",
@@ -87,6 +91,9 @@
     "Application.TotalCostToHireKWorkers.executor": "Run",
     "Application.TwoSum.executor": "Run",
     "Application.UniqueNumberOfOccurrences.executor": "Run",
+    "Application._3Sum.executor": "Run",
+    "Application._3SumClosest.executor": "Run",
+    "Application._4Sum.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
@@ -102,52 +109,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TwoSum">
-    <configuration name="DeleteTheMiddleNodeOfALinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.algorithmsAndDataStructures.LinkedList.DeleteTheMiddleNodeOfALinkedList" />
+  <component name="RunManager" selected="Application.RemoveDuplicatesFromSortedArray">
+    <configuration name="RemoveDuplicatesFromSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.algorithmsAndDataStructures.TwoPointers.RemoveDuplicatesFromSortedArray" />
       <module name="AlgorithmsAndDataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.algorithmsAndDataStructures.LinkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaximumTwinSumOfALinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.algorithmsAndDataStructures.LinkedList.MaximumTwinSumOfALinkedList" />
-      <module name="AlgorithmsAndDataStructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.algorithmsAndDataStructures.LinkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OddEvenLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.algorithmsAndDataStructures.LinkedList.OddEvenLinkedList" />
-      <module name="AlgorithmsAndDataStructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.algorithmsAndDataStructures.LinkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TotalCostToHireKWorkers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.algorithmsAndDataStructures.HeapPriorityQueue.TotalCostToHireKWorkers" />
-      <module name="AlgorithmsAndDataStructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.algorithmsAndDataStructures.HeapPriorityQueue.*" />
+          <option name="PATTERN" value="org.algorithmsAndDataStructures.TwoPointers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,6 +129,45 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.algorithmsAndDataStructures.HashMapORSet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_3Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.algorithmsAndDataStructures.TwoPointers._3Sum" />
+      <module name="AlgorithmsAndDataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.algorithmsAndDataStructures.TwoPointers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_3SumClosest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.algorithmsAndDataStructures.TwoPointers._3SumClosest" />
+      <module name="AlgorithmsAndDataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.algorithmsAndDataStructures.TwoPointers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_4Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.algorithmsAndDataStructures.TwoPointers._4Sum" />
+      <module name="AlgorithmsAndDataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.algorithmsAndDataStructures.TwoPointers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,11 +200,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveDuplicatesFromSortedArray" />
+        <item itemvalue="Application._4Sum" />
+        <item itemvalue="Application._3SumClosest" />
+        <item itemvalue="Application._3Sum" />
         <item itemvalue="Application.TwoSum" />
-        <item itemvalue="Application.MaximumTwinSumOfALinkedList" />
-        <item itemvalue="Application.OddEvenLinkedList" />
-        <item itemvalue="Application.DeleteTheMiddleNodeOfALinkedList" />
-        <item itemvalue="Application.TotalCostToHireKWorkers" />
       </list>
     </recent_temporary>
   </component>
@@ -244,7 +251,10 @@
       <workItem from="1715983987881" duration="35000" />
       <workItem from="1716069785417" duration="3032000" />
       <workItem from="1716151431683" duration="2464000" />
-      <workItem from="1716209623022" duration="16117000" />
+      <workItem from="1716209623022" duration="16471000" />
+      <workItem from="1716304403259" duration="666000" />
+      <workItem from="1716306411550" duration="493000" />
+      <workItem from="1716306937175" duration="11173000" />
     </task>
     <task id="LOCAL-00001" summary="feat: prefix sum and two pointers">
       <option name="closed" value="true" />
@@ -414,7 +424,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716242622266</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="feat: tasks">
+      <option name="closed" value="true" />
+      <created>1716248817404</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1716248817404</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -486,6 +504,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/HashMapORSet/TwoSum.java</url>
           <line>32</line>
           <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/TwoPointers/_3SumClosest.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/TwoPointers/RemoveDuplicatesFromSortedArray.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="122" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/BinarySearch/GuessNumberHigherOrLower.java</url>
