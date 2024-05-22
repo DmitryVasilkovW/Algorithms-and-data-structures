@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbb48477-d70e-4957-b43f-3264e76b873f" name="Changes" comment="feat: tasks">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/TwoPointers/RemoveDuplicatesFromSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/TwoPointers/_3Sum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/TwoPointers/_3SumClosest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/TwoPointers/_4Sum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/TwoPointers/NextPermutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/TwoPointers/RemoveElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/TwoPointers/_4Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/TwoPointers/_4Sum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +81,7 @@
     "Application.OddEvenLinkedList.executor": "Run",
     "Application.ProductOfArrayExceptSelf.executor": "Debug",
     "Application.RemoveDuplicatesFromSortedArray.executor": "Run",
+    "Application.RemoveElement.executor": "Debug",
     "Application.RemovingStarsFromAString.executor": "Run",
     "Application.ReverseLinkedList.executor": "Run",
     "Application.ReverseVowelsOfAString.executor": "Run",
@@ -109,7 +109,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.RemoveDuplicatesFromSortedArray">
+  <component name="RunManager" selected="Application.RemoveElement">
     <configuration name="RemoveDuplicatesFromSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.algorithmsAndDataStructures.TwoPointers.RemoveDuplicatesFromSortedArray" />
       <module name="AlgorithmsAndDataStructures" />
@@ -123,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.algorithmsAndDataStructures.HashMapORSet.TwoSum" />
+    <configuration name="RemoveElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.algorithmsAndDataStructures.TwoPointers.RemoveElement" />
       <module name="AlgorithmsAndDataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.algorithmsAndDataStructures.HashMapORSet.*" />
+          <option name="PATTERN" value="org.algorithmsAndDataStructures.TwoPointers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,11 +200,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveElement" />
         <item itemvalue="Application.RemoveDuplicatesFromSortedArray" />
         <item itemvalue="Application._4Sum" />
         <item itemvalue="Application._3SumClosest" />
         <item itemvalue="Application._3Sum" />
-        <item itemvalue="Application.TwoSum" />
       </list>
     </recent_temporary>
   </component>
@@ -254,7 +254,7 @@
       <workItem from="1716209623022" duration="16471000" />
       <workItem from="1716304403259" duration="666000" />
       <workItem from="1716306411550" duration="493000" />
-      <workItem from="1716306937175" duration="11173000" />
+      <workItem from="1716306937175" duration="13262000" />
     </task>
     <task id="LOCAL-00001" summary="feat: prefix sum and two pointers">
       <option name="closed" value="true" />
@@ -432,7 +432,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716248817404</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="feat: tasks">
+      <option name="closed" value="true" />
+      <created>1716320015075</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1716320015075</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -512,8 +520,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/TwoPointers/RemoveDuplicatesFromSortedArray.java</url>
-          <line>20</line>
+          <line>17</line>
           <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/TwoPointers/RemoveElement.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="126" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/BinarySearch/GuessNumberHigherOrLower.java</url>
