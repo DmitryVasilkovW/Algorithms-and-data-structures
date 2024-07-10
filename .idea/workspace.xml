@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbb48477-d70e-4957-b43f-3264e76b873f" name="Changes" comment="feat: tasks">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/BinaryTreeDFS/BinaryTreeDFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/BinaryTreeDFS/LeafSimilarTrees.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/BinaryTreeDFS/MaximumDepthOfBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/BinaryTreeDFS/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/ArrayOrString/MaximizeDistanceToClosestPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/BinaryTreeDFS/CountGoodNodesInBinaryTree.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/TwoPointers/NextPermutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/prefixSum/SubarraySumEqualsK.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +38,9 @@
     &quot;accountId&quot;: &quot;3ff08969-64f4-400f-ae16-d2c77eb8ee31&quot;
   }
 }</component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -75,6 +77,7 @@
     "Application.Main.executor": "Run",
     "Application.MaxConsecutiveOnesIII.executor": "Run",
     "Application.MaxNumberOfKSumPairs.executor": "Run",
+    "Application.MaximizeDistanceToClosestPerson.executor": "Run",
     "Application.MaximumAverageSubarrayI.executor": "Run",
     "Application.MaximumDepthOfBinaryTree.executor": "Run",
     "Application.MaximumNumberOfVowelsInASubstringOfGivenLength.executor": "Run",
@@ -93,6 +96,7 @@
     "Application.ReverseVowelsOfAString.executor": "Run",
     "Application.ReverseWordsInAString.executor": "Debug",
     "Application.StringCompression.executor": "Run",
+    "Application.SubarraySumEqualsK.executor": "Debug",
     "Application.SuccessfulPairsOfSpellsAndPotions.executor": "Run",
     "Application.TotalCostToHireKWorkers.executor": "Run",
     "Application.TwoSum.executor": "Run",
@@ -115,7 +119,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LeafSimilarTrees">
+  <component name="RunManager" selected="Application.SubarraySumEqualsK">
     <configuration name="BinaryTreeDFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.algorithmsAndDataStructures.BinaryTreeDFS.BinaryTreeDFS" />
       <module name="AlgorithmsAndDataStructures" />
@@ -142,6 +146,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MaximizeDistanceToClosestPerson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.algorithmsAndDataStructures.ArrayOrString.MaximizeDistanceToClosestPerson" />
+      <module name="AlgorithmsAndDataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.algorithmsAndDataStructures.ArrayOrString.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MaximumDepthOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.algorithmsAndDataStructures.BinaryTreeDFS.MaximumDepthOfBinaryTree" />
       <module name="AlgorithmsAndDataStructures" />
@@ -155,25 +172,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NextPermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.algorithmsAndDataStructures.TwoPointers.NextPermutation" />
+    <configuration name="SubarraySumEqualsK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.algorithmsAndDataStructures.PrefixSum.SubarraySumEqualsK" />
       <module name="AlgorithmsAndDataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.algorithmsAndDataStructures.TwoPointers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RemoveElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.algorithmsAndDataStructures.TwoPointers.RemoveElement" />
-      <module name="AlgorithmsAndDataStructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.algorithmsAndDataStructures.TwoPointers.*" />
+          <option name="PATTERN" value="org.algorithmsAndDataStructures.PrefixSum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,19 +210,19 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SubarraySumEqualsK" />
+        <item itemvalue="Application.MaximizeDistanceToClosestPerson" />
         <item itemvalue="Application.LeafSimilarTrees" />
         <item itemvalue="Application.MaximumDepthOfBinaryTree" />
         <item itemvalue="Application.BinaryTreeDFS" />
-        <item itemvalue="Application.NextPermutation" />
-        <item itemvalue="Application.RemoveElement" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
       </set>
     </attachedChunks>
   </component>
@@ -262,7 +266,9 @@
       <workItem from="1716306411550" duration="493000" />
       <workItem from="1716306937175" duration="13262000" />
       <workItem from="1716375155469" duration="1616000" />
-      <workItem from="1717372607949" duration="2301000" />
+      <workItem from="1717372607949" duration="2762000" />
+      <workItem from="1720628155146" duration="436000" />
+      <workItem from="1720630908089" duration="1843000" />
     </task>
     <task id="LOCAL-00001" summary="feat: prefix sum and two pointers">
       <option name="closed" value="true" />
@@ -456,7 +462,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716375177216</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="feat: tasks">
+      <option name="closed" value="true" />
+      <created>1717376127661</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1717376127661</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -556,6 +570,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/algorithmsAndDataStructures/PrefixSum/SubarraySumEqualsK.java</url>
+          <line>5</line>
+          <properties class="org.algorithmsAndDataStructures.PrefixSum.SubarraySumEqualsK" method="subarraySum">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="123" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
