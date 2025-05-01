@@ -1,4 +1,4 @@
-package org.algorithmsAndDataStructures.SlidingWindow;
+package org.algorithmsAndDataStructures.slidingWindow;
 // https://leetcode.com/problems/max-consecutive-ones-iii/description/?envType=study-plan-v2&envId=leetcode-75
 
 public class MaxConsecutiveOnesIII

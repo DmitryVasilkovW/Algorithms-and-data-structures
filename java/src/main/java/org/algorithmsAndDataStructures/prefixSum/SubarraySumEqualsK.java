@@ -1,4 +1,4 @@
-package org.algorithmsAndDataStructures.PrefixSum;
+package org.algorithmsAndDataStructures.prefixSum;
 
 import java.util.HashMap;
 

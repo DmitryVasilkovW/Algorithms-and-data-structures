@@ -1,4 +1,4 @@
-package org.algorithmsAndDataStructures.PrefixSum;
+package org.algorithmsAndDataStructures.prefixSum;
 // https://leetcode.com/problems/find-the-highest-altitude/description/?envType=study-plan-v2&envId=leetcode-75
 
 public class FindTheHighestAltitude
