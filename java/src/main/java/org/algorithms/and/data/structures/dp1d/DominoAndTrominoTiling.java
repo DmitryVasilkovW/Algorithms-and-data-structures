@@ -1,4 +1,4 @@
-package org.algorithms.and.data.structures.d.p1d;
+package org.algorithms.and.data.structures.dp1d;
 // https://leetcode.com/problems/domino-and-tromino-tiling/description/?envType=study-plan-v2&envId=leetcode-75
 
 public class DominoAndTrominoTiling {
